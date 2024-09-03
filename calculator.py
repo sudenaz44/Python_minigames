@@ -55,7 +55,7 @@ def calculator():
         answer = operations[operation_symbol](num1,num2)
         print(f"{num1} {symbol} {num2} = {answer}")
         
-        choice = input("Type 'y' to continue calculating with {answer}, or type 'n' to start a new calculation.")
+        choice = input(f"Type 'y' to continue calculating with {answer}, or type 'n' to start a new calculation.")
         
         if choice == "y":
             num1 = answer
